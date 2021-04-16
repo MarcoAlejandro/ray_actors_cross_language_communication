@@ -10,11 +10,10 @@ cross language actors inside the ray runtime.
 
 ### Passing around actor handles
 
-According to [documentation](https://docs.ray.io/en/master/cross-language.html#cross-language-data-serialization), `ActorHandle`'s can be serialized and deserialized autatically
+According to [documentation](https://docs.ray.io/en/master/cross-language.html#cross-language-data-serialization), `ActorHandle`'s can be serialized and deserialized automatically
 between cross language operations. 
 
-Given so, it should be possible to pass the actor handle to remote cross language tasks/actor methods
-and to use the actor handle natively in the remote code. 
+Given so, it should be possible to pass the actor handle to remote cross language tasks/actor to use the actor handle natively in the remote code. 
 
 The `main.py` code performs the next actions: 
 
